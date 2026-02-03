@@ -18545,7 +18545,7 @@ async function handleSay() {
   document.getElementById("command").focus();
 }
 
-const ws = new WebSocket("ws://127.0.0.1:8080"); // Node proxy
+const ws = new WebSocket("ws://18.222.131.3:22"); // Node proxy
 
 // Track one pending promise for each request
 let pendingResolve = null;
@@ -19211,4 +19211,5 @@ authenticatePlayer(gameClientId).then(key => {
 });
 </script>
 </body>
+
 </html>
